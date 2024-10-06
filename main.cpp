@@ -26,15 +26,17 @@ MyApp::MyApp(QWidget *parent) : QWidget(parent) {
     QTabWidget *tabs = new QTabWidget(this);
 
     QWidget *leaderTab = new QWidget();
+    QWidget *memberTab = new QWidget();
     QWidget *member2Tab = new QWidget();
     QWidget *member3Tab = new QWidget();  // 新增的組員3頁面
 
     tabs->addTab(leaderTab, "隊長");
+    tabs->addTab(member2Tab, "組員");
     tabs->addTab(member2Tab, "組員2");
     tabs->addTab(member3Tab, "組員3");
 
     // 隊長頁面的設定
-    leaderLabel = new QLabel("隊長\n組員2\n", leaderTab);
+    leaderLabel = new QLabel("隊長\n組員1\n組員2\n組員3\n", leaderTab);
     leaderLabel->move(0, 0);
 
     // 組員2頁面的按鈕
