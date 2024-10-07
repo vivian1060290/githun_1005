@@ -26,7 +26,7 @@ MyApp::MyApp(QWidget *parent) : QWidget(parent) {
     QTabWidget *tabs = new QTabWidget(this);
 
     QWidget *leaderTab = new QWidget();
-    QWidget *memberTab = new QWidget();
+    QWidget *member1Tab = new QWidget();
     QWidget *member2Tab = new QWidget();
     QWidget *member3Tab = new QWidget();  // 新增的組員3頁面
 
