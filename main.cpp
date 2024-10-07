@@ -31,7 +31,7 @@ MyApp::MyApp(QWidget *parent) : QWidget(parent) {
     QWidget *member3Tab = new QWidget();  // 新增的組員3頁面
 
     tabs->addTab(leaderTab, "隊長");
-    tabs->addTab(member2Tab, "組員");
+    tabs->addTab(member1Tab, "組員1");
     tabs->addTab(member2Tab, "組員2");
     tabs->addTab(member3Tab, "組員3");
 
