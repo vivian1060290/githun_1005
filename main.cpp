@@ -48,7 +48,7 @@ MyApp::MyApp(QWidget *parent) : QWidget(parent) {
     
     // 組員2頁面的按鈕
     QPushButton *fontButton = new QPushButton("改變文字樣式", member2Tab);
-    fontButton->move(0, 0);
+    fontButton->move(100, 100);
     connect(fontButton, &QPushButton::clicked, this, &MyApp::changeFont);
 
     // 組員3頁面的按鈕
